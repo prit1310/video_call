@@ -1,0 +1,17 @@
+{
+  "name": "firebasertc",
+  "version": "1.0.0",
+  "description": "This is the GitHub repo for the FirebaseRTC codelab. This will teach you how to use Firebase Cloud Firestore for signaling in a WebRTC video chat application.",
+  "main": "app.js",
+ "scripts": {
+  "build": "vite build",
+  "deploy": "npm run build && firebase deploy --only hosting",
+  "start": "firebase serve --only hosting",
+  "test": "npm run build"
+},
+  "author": "prit",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}

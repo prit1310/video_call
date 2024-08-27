@@ -1,5 +1,10 @@
 {
   "projects": {
-    "default": "fir-rtc-89b99"
-  }
+    "default": "fir-rtc-89b99",
+    "staging": "video-call-abe1f",
+    "staging1": "video-call-abe1f"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
